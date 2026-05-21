@@ -1,0 +1,87 @@
+body{
+    width: 400px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    margin: auto;
+    border: solid whitesmoke;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0px ;
+    background-color:  #ffffff;
+    font-size: 11px;
+    padding: 5px 10px;
+}
+.work{
+    display: flex;
+    justify-items: normal; 
+    word-spacing: normal;
+}
+.pill-button{
+    border-radius:200%;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid;
+};
+.main{
+    margin: 400px;
+    padding: 50;
+}
+.class{
+    color:#4d4d4d;
+    font-style: oblique;
+} 
+.h2{
+    font-size: 24px;
+    font-style: italic;
+    color: #b3b3b3;
+    display: flex;
+    text-align: left;
+    padding: 10px 30px 10px 20px;
+}
+.h2 .girl img{
+    width: 80px;
+    height: 1o0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Learn{
+    display: flex;
+    text-align: right;
+    background-color: aliceblue;
+    margin: 10px auto;
+    font-size: 7px;
+    font-style: italic;
+    padding: 1px 20px;
+}
+.Learn .u img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 130px;
+    height: 180px;
+    padding: 10px 5px;
+}
+.h1{
+    display: flex;
+    font-size: 7px;
+    text-align: left;
+    background-color: aliceblue;
+    margin: 10px auto;
+    font-style: italic;
+    padding: 1px 20px;
+}
+.h1 .r img{
+    width: 130px;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.about{
+    padding: 1px 15px;
+}
