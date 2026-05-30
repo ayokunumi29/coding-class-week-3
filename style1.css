@@ -35,19 +35,22 @@ body{
     font-style: oblique;
 } 
 .h2{
-    font-size: 24px;
+    font-size: 15px;
     font-style: italic;
     color: #b3b3b3;
     display: flex;
     text-align: left;
     padding: 10px 30px 10px 20px;
+    align-items: center;
 }
 .h2 .girl img{
-    width: 80px;
-    height: 1o0px;
+    width: 100px;
+    height: 120px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: relative;
+    top: 20px;
 }
 .Learn{
     display: flex;
@@ -84,4 +87,8 @@ body{
 }
 .about{
     padding: 1px 15px;
+}
+.icon{
+    position: relative;
+    top: 50px;
 }
